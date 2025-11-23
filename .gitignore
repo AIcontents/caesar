@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Firebase
+.firebase/
+.firebaserc.backup
+firebase-debug.log
+functions/node_modules/
+storage-debug.log
+
+# Google Cloud credentials (НИКОГДА не загружать в репозиторий)
+*.json
